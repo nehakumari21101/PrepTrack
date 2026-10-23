@@ -182,3 +182,56 @@ button {
     font-size: 11px;
     margin-top: 3px
 }
+
+.main-area {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column
+}
+
+/* topbar */
+.topbar {
+    height: 72px;
+    background: #fff;
+    border-bottom: 1px solid #eeedf3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px
+}
+
+.breadcrumbs {
+    font-size: 13px;
+    color: #9693a7
+}
+
+.breadcrumbs span {
+    padding: 0 10px
+}
+
+.breadcrumbs strong {
+    color: #37354d
+}
+
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 18px
+}
+
+.date-chip {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 12px;
+    color: #77758a
+}
+
+.page-content {
+    padding: 30px 34px;
+    flex: 1;
+    max-width: 1500px;
+    width: 100%;
+    margin: auto
+}
