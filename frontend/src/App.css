@@ -1,1 +1,49 @@
+/* model */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: #211c3b70;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    z-index: 20
+}
 
+.modal-card {
+    width: min(500px, 100%);
+    background: #fff;
+    border-radius: 15px;
+    padding: 24px;
+    box-shadow: 0 25px 70px #1c173333
+}
+
+.modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 22px
+}
+
+.modal-head h2 {
+    font: 800 19px Manrope;
+    margin: 0
+}
+
+.modal-head p {
+    font-size: 12px;
+    color: #9693a7;
+    margin: 6px 0
+}
+
+.form-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 24px
+}
