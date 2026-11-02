@@ -26,6 +26,7 @@ import {
   Sparkles,
   ExternalLink,
 } from "lucide-react";
+
 export function Modal({ title, subtitle, children, onClose }) {
   return (
     <div
